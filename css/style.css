@@ -1,0 +1,71 @@
+body, html { 
+    margin: 0 auto;
+    font-family: 'Josefin Slab', serif;
+    height: 100%;
+    background-color: #e8ceb1;;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    height: 100%;
+    
+    
+}
+.morning {
+    height: 100%;
+    background-color:  #c3644f;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.evening {
+    height: 100%;
+    background-color: #b16435; 
+}
+.afternoon {
+    height: 100%;
+    background-color: #d8a378;
+}
+.blank {
+    height: 100%;
+}
+.daytime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: #f3ebde;;
+
+}
+
+.morning:hover, .evening:hover, .afternoon:hover {
+}
+
+#MyClockDisplay {
+    
+        color:black;
+        font-size: 30px;
+        font-family: Orbitron;
+        letter-spacing: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+       
+    }
+
+.checkbox {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
+
+}
